@@ -12,9 +12,9 @@ I hold an MCA from NIT Karnataka Surathkal (CGPA: 8.73) and have solved 800+ pro
   contact: {
     email: "vg539616@gmail.com",
     phone: "+91 7987250139",
-    linkedin: "https://linkedin.com/in/vishal-gupta",
-    github: "https://github.com/vishalgupta",
-    leetcode: "https://leetcode.com/vishalgupta",
+    linkedin: "https://www.linkedin.com/in/vishal1829/",
+    github: "https://github.com/Vishal1829",
+    leetcode: "https://leetcode.com/u/vishal1829/",
   },
 
   experience: [
