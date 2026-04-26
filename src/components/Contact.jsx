@@ -12,14 +12,14 @@ const contactLinks = [
   },
   {
     label: 'LinkedIn',
-    value: 'linkedin.com/in/vishal-gupta',
+    value: 'linkedin.com/in/vishal1829',
     href: data.contact.linkedin,
     icon: '💼',
     desc: 'Professional network',
   },
   {
     label: 'GitHub',
-    value: 'github.com/vishalgupta',
+    value: 'github.com/Vishal1829',
     href: data.contact.github,
     icon: '⚡',
     desc: 'Code & projects',
