@@ -3,12 +3,14 @@ import SectionHeader from './SectionHeader';
 import { data } from '../data/resume';
 
 const categoryIcons = {
-  'Languages': '{ }',
-  'Frameworks & Libraries': '⚙',
-  'Infrastructure & Messaging': '🔌',
-  'Databases & Search': '🗄',
-  'DevOps & Tools': '🛠',
-  'Auth & Security': '🔐',
+    'Languages': '{ }',
+    'Frameworks & Libraries': '⚙',
+    'Infrastructure & Messaging': '🔌',
+    'Databases & Search': '🗄',
+    'DevOps & Tools': '🛠',
+    'Auth & Security': '🔐',
+    'AI Tools': '🤖',           // ← add this
+    'Core Expertise': '🧠',     // ← add this
 };
 
 export default function Skills() {

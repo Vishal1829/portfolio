@@ -11,8 +11,7 @@ export default function Footer() {
           className="font-mono text-xs text-zinc-600 text-center md:text-left"
         >
           <span className="text-amber-400/40">&gt;_</span>
-          {' '}Vishal Gupta © {new Date().getFullYear()}
-          {' '}· Built with React + Framer Motion
+          Vishal Gupta © {new Date().getFullYear()} · Designed & built from scratch
         </motion.div>
 
         <motion.div

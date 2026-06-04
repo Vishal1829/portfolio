@@ -4,9 +4,9 @@ import { data } from '../data/resume';
 
 const roles = [
   'Software Development Engineer',
-  'Backend Systems Architect',
-  'Distributed Systems Builder',
-  'Fintech Infrastructure Engineer',
+  'Building Real-time Financial Systems',
+  'Distributed Systems Engineer',
+  'Backend Infrastructure Engineer',
 ];
 
 function TypingText({ texts }) {
@@ -225,12 +225,12 @@ export default function Hero() {
               <p className="font-mono text-xs text-amber-400/40 tracking-widest mb-6">// SYSTEM.STATUS</p>
 
               {[
-                { label: 'Current Company', value: 'Goldman Sachs', accent: true },
-                { label: 'Role', value: 'SDE', accent: false },
-                { label: 'Location', value: 'Bengaluru, IN', accent: false },
-                { label: 'Experience', value: '2+ Years', accent: false },
-                { label: 'Education', value: 'NIT Karnataka', accent: false },
-                { label: 'CGPA', value: '8.73 / 10', accent: true },
+                { label: 'Company',    value: 'Goldman Sachs',       accent: true  },
+                { label: 'Location',   value: 'Bengaluru, IN',       accent: false },
+                { label: 'Experience', value: '3+ Years',             accent: false },
+                { label: 'Stack',      value: 'Backend · Distributed',accent: false },
+                { label: 'Education',  value: 'NIT Surathkal',        accent: false },
+                { label: 'Status',     value: 'Available to talk',    accent: true  },
               ].map(item => (
                 <div key={item.label} className="flex items-center justify-between py-3 border-b border-zinc-800/60 last:border-0">
                   <span className="text-xs font-mono text-zinc-500">{item.label}</span>

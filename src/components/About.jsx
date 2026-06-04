@@ -3,9 +3,9 @@ import SectionHeader from './SectionHeader';
 import { data } from '../data/resume';
 
 const strengths = [
-  { icon: '⚡', title: 'Real-time Systems', desc: 'Pricing engines, ATC nodes, low-latency pipelines' },
-  { icon: '🏗', title: 'Backend Architecture', desc: 'Microservices, event-driven design, distributed systems' },
-  { icon: '📊', title: 'Fintech Domain', desc: 'Credit bonds, equity processing, Account Aggregator' },
+  { icon: '⚡', title: 'Real-time Systems', desc: 'Pricing engines, low-latency pipelines, and automated trading controls' },
+  { icon: '🏗️', title: 'Backend Architecture', desc: 'Microservices, event-driven design, and distributed systems' },
+  { icon: '📊', title: 'Fintech Domain', desc: 'Trading systems, financial data pipelines, and banking integrations' },
   { icon: '🔧', title: 'Platform Engineering', desc: 'Kafka, Spring Boot, Java 21, Docker' },
 ];
 
@@ -41,9 +41,9 @@ export default function About() {
             className="grid grid-cols-3 gap-4 pt-6"
           >
             {[
-              { num: '2+', label: 'Years Exp' },
-              { num: '800+', label: 'LeetCode' },
-              { num: '10M+', label: 'Accounts Served' },
+              { num: '3+', label: 'Years Exp' },
+              { num: '800+', label: 'LeetCode Solved' },
+              { num: '3×', label: 'Best Performer' },
             ].map(s => (
               <div key={s.label} className="text-center p-4 glass rounded-xl border border-amber-400/10">
                 <div className="font-display text-3xl font-black text-gradient">{s.num}</div>
